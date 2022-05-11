@@ -468,9 +468,9 @@ $paragraph-margin-bottom:   1rem !default;
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
+  sm: 576px,//mobile
+  md: 768px,//pad
+  lg: 992px,//desktop
   xl: 1366px
 
 ) !default;
@@ -489,7 +489,7 @@ $container-max-widths: (
   sm: 576px,
   md: 740px,
   lg: 960px,
-  xl: 1366px
+  xl: 1120px
 ) !default;
 // scss-docs-end container-max-widths
 
