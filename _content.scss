@@ -1,0 +1,165 @@
+.warp {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    .top {
+        right: 48px;
+        top: 70%;
+        width: 50px;
+        position: fixed;
+    }
+  
+}
+
+
+.topbar {
+    position: relative;
+    margin-bottom: 217px;
+    .nav {
+        display: flex;
+        align-items: center;
+        height: 72px !important;
+
+        .logo {
+            height: 40px;
+        }
+
+    }
+}
+
+.top-bg-desktop {
+    display: block;
+    max-width: 850px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -999;
+}
+.person{
+    margin-right: 200px;
+}
+.top-bg-mobile {
+    display: none;
+}
+@media (max-width:1500px){
+    .blueBall-1{
+        position: absolute;
+        left: -222px;
+        top: 580px;
+        z-index: -999;
+    }
+}
+@media (max-width:1366px){
+    .blueBall-1{
+        position: absolute;
+        left: -222px;
+        top: 400px;
+        z-index: -999;
+    }
+}
+@include desktop{
+    .blueBall-1{
+        width: 250px;
+        position: absolute;
+        left: -150px;
+        top: 370px;
+        z-index: -999;
+    }
+}
+@include pad {
+
+    .top-bg-mobile {
+        display: block;
+    }
+
+    .top-bg-mobile {
+        display: none;
+    }
+    .blueBall-1{
+        width: 200px;
+        position: absolute;
+        left: -120px;
+        top: 450px;
+    }
+    .content{
+        ul{
+            margin: 0 auto;
+         li{
+             display: block !important;
+         }   
+        }
+
+    }
+
+}
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+    .community{
+        margin-bottom: 100px;
+    }
+    li{
+        width: 244px;
+    }
+}
+
+    @include mobile {
+        .top-bg-desktop {
+            display: none;
+        }
+
+        .top-bg-mobile {
+            display: block;
+        }
+
+        .nav {
+            border-bottom: 2px solid #F5CA52 !important;
+            
+        }
+        .row{
+            padding: 0px !important;
+        }
+        .topbar{
+            padding: 0 !important;
+        }
+    
+        .mobile-bg {
+            position: relative;
+
+            .top-bg-mobile {
+                width: 500px;
+                position: absolute;
+                z-index: -999;
+                bottom: -3%;
+                left: 0;
+            }
+
+            .person {
+                
+                max-width: 532px;
+
+            }
+        }
+
+        .top-content {
+            display: flex;
+            align-items: center;
+        }
+        .blueBall-1{
+            width: 200px;
+            position: absolute;
+            left: -120px;
+            top: 700px;
+        }
+        .community ul{
+            justify-content: center;
+            img{
+                width: 60px;
+            }
+        }
+    }
+
+
+    * {
+        outline: red solid 1px;
+    }
