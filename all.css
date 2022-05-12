@@ -11676,4 +11676,121 @@ fieldset:disabled .btn {
     font-size: 24px;
   }
 }
+
+.fee-blueBall {
+  position: absolute;
+  left: -100px;
+  top: 1000px;
+  z-index: -999;
+  overflow: hidden;
+}
+
+.fee-top-bg {
+  height: 470px;
+  background-color: #F7F9FD;
+  width: 100%;
+  border-radius: 0 0 0 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+
+.fee-top-bg-mobile {
+  height: 495px;
+  background-color: #F7F9FD;
+  width: 100%;
+  border-radius: 0 0 0 300px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: -999;
+}
+
+.trumpet-desktop {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -999;
+}
+
+.trumpet-mobile {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  z-index: -999;
+}
+
+.topbar {
+  position: relative;
+}
+
+.fee-title h1, .fee-title .h1 {
+  margin-top: 100px !important;
+}
+
+.fee-content {
+  margin-top: 300px;
+}
+
+.fee-content ul {
+  overflow-x: auto;
+}
+
+.fee-content ul li {
+  white-space: nowrap;
+}
+
+.btn-light.active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: none !important;
+  background: #56C4C5 !important;
+  color: white !important;
+}
+
+.fee-Program-explain {
+  height: 586px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+  border-radius: 12px;
+  margin-top: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.accordion-header, .accordion-button, .accordion-item {
+  -webkit-box-shadow: 0px 2px 10px #00000014 !important;
+          box-shadow: 0px 2px 10px #00000014 !important;
+  border-radius: 12px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #56C4C5 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 576px) {
+  .fee-content {
+    margin-top: 400px !important;
+  }
+  .fee-top-bg-mobile {
+    height: 495px;
+    background-color: #F7F9FD;
+    width: 100%;
+    border-radius: 0 0 0 200px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: -999;
+  }
+}
+
+.bg-gray {
+  background-color: #F5F5F5;
+}
 /*# sourceMappingURL=all.css.map */
