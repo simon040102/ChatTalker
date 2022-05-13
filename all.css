@@ -11338,14 +11338,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.warp {
+.wrap {
   max-width: 1366px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
-.warp .top {
+.wrap .top {
   right: 48px;
   top: 70%;
   width: 50px;
@@ -11402,9 +11402,11 @@ html {
   padding: 0;
 }
 
+.introduce img {
+  width: 100%;
+}
+
 .introduce li {
-  width: 260px;
-  height: 388px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
@@ -11412,7 +11414,6 @@ html {
 }
 
 .feature ul li {
-  width: 230px;
   height: 280px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   -webkit-box-shadow: 0px 2px 10px #00000014;
@@ -11547,6 +11548,7 @@ html {
   }
   .introduce ul {
     display: block !important;
+    padding: 0;
   }
   .introduce ul li {
     margin: 0 auto;
@@ -11580,10 +11582,6 @@ html {
   margin-bottom: 100px;
 }
 
-.content .community li {
-  width: 244px;
-}
-
 @media (max-width: 576px) {
   .modile-text-center {
     text-align: center;
@@ -11596,10 +11594,6 @@ html {
   }
   .nav {
     border-bottom: 2px solid #F5CA52 !important;
-  }
-  .row {
-    padding: 0px !important;
-    --bs-gutter-x: 0rem;
   }
   .topbar {
     padding: 0 !important;
@@ -11642,7 +11636,6 @@ html {
     display: block !important;
   }
   .community ul li {
-    max-width: 70%;
     margin: 0 auto;
   }
   .community ul img {

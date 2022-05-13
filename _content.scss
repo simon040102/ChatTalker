@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
   }
-.warp {
+.wrap {
     max-width: 1366px;
     margin: 0 auto;
     position: relative;
@@ -63,18 +63,20 @@ html{
 }
 
 .introduce {
+    img{
+        width: 100%;
+      
+    }
     li {
-        width: 260px;
-        height: 388px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 2px 10px #00000014;
         border-radius: 12px;
+     
     }
 }
 .feature{
     ul{
         li {
-            width: 230px;
             height: 280px;
             background: #FFFFFF 0% 0% no-repeat padding-box;
             box-shadow: 0px 2px 10px #00000014;
@@ -226,6 +228,7 @@ html{
     .introduce {
         ul {
             display: block !important;
+            padding: 0;
             li {
                 margin: 0 auto;
             }
@@ -259,10 +262,6 @@ html{
 
     .community {
         margin-bottom: 100px;
-
-        li {
-            width: 244px;
-        }
     }
 
 }
@@ -284,10 +283,7 @@ html{
 
     }
 
-    .row {
-        padding: 0px !important;
-        --bs-gutter-x: 0rem;
-    }
+   
 
     .topbar {
         padding: 0 !important;
@@ -331,7 +327,6 @@ html{
         display: block !important;
 
         li {
-            max-width: 70%;
             margin: 0 auto;
         }
 
