@@ -11353,6 +11353,31 @@ html {
   z-index: 999;
 }
 
+.blueBall-1 {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  z-index: -999;
+  top: 600px;
+  left: -222px;
+}
+
+.blueBall-2 {
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  z-index: -999;
+  top: 1650px;
+  right: -200px;
+}
+
+.blueBall-3 {
+  position: absolute;
+  left: 120px;
+  bottom: 700px;
+  z-index: -999;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -11444,42 +11469,34 @@ html {
   z-index: -500;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1366px) {
   .blueBall-1 {
-    position: absolute;
     left: -222px;
-    top: 580px;
+    top: 600px;
     z-index: -999;
   }
   .blueBall-2 {
-    position: absolute;
-    right: -100px;
+    right: -150px;
     top: 1650px;
-    z-index: -999;
-  }
-  .blueBall-3 {
-    position: absolute;
-    left: 120px;
-    bottom: 830px;
-    z-index: -999;
-  }
-}
-
-@media (max-width: 1366px) {
-  .blueBall-1 {
-    position: absolute;
-    left: -222px;
-    top: 400px;
     z-index: -999;
   }
 }
 
 @media (max-width: 992px) {
   .blueBall-1 {
-    width: 250px;
+    left: -250px;
+    top: 500px;
+    z-index: -999;
+  }
+  .blueBall-2 {
+    right: -100px;
+    top: 2100px;
+    z-index: -999;
+  }
+  .blueBall-3 {
     position: absolute;
-    left: -150px;
-    top: 370px;
+    left: 100px;
+    bottom: 600px;
     z-index: -999;
   }
   .modile-text-center {
@@ -11518,20 +11535,17 @@ html {
     margin-bottom: 100px;
   }
   .blueBall-1 {
-    width: 200px;
-    position: absolute;
-    left: -150px;
+    left: -230px;
     top: 900px;
   }
   .blueBall-2 {
-    position: absolute;
-    right: -150px;
-    top: 3200px;
+    right: -200px;
+    top: 3700px;
     z-index: -999;
   }
   .blueBall-3 {
     position: absolute;
-    left: 50px;
+    left: 70px;
     bottom: 1000px;
     z-index: -999;
   }
@@ -11617,9 +11631,7 @@ html {
             align-items: center;
   }
   .blueBall-1 {
-    width: 200px;
-    position: absolute;
-    left: -120px;
+    left: -250px;
     top: 850px;
   }
   .blueBall-2 {
@@ -11724,7 +11736,7 @@ html {
 }
 
 .fee-content {
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .fee-content ul {
@@ -11768,10 +11780,19 @@ html {
   background-color: #FFFFFF;
 }
 
-@media (max-width: 576px) {
-  .fee-content {
-    margin-top: 400px !important;
+@media (max-width: 992px) {
+  .fee-topbar {
+    margin-bottom: 300px;
   }
+}
+
+@media (max-width: 768px) {
+  .fee-topbar {
+    margin-bottom: 400px;
+  }
+}
+
+@media (max-width: 576px) {
   .fee-top-bg-mobile {
     height: 495px;
     background-color: #F7F9FD;
