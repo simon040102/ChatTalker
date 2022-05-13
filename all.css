@@ -11390,10 +11390,6 @@ html {
   z-index: -999;
 }
 
-.person {
-  margin-right: 200px;
-}
-
 .top-bg-mobile {
   display: none;
 }
@@ -11425,6 +11421,7 @@ html {
 
 .message ul {
   margin-top: 80px;
+  padding-left: 0px !important;
 }
 
 .message ul li {
