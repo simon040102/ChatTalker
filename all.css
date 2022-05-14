@@ -11808,4 +11808,18 @@ html {
 .bg-gray {
   background-color: #F5F5F5;
 }
+
+.accordion-button::after {
+  background-image: url(images/plus.svg) !important;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(images/minus.svg) !important;
+  -webkit-transform: translateY(10px) !important;
+          transform: translateY(10px) !important;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
 /*# sourceMappingURL=all.css.map */
