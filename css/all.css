@@ -11550,6 +11550,23 @@ html {
   }
 }
 
+.fee-wrap {
+  margin: 0 auto;
+  position: relative;
+}
+
+.fee-wrap .top {
+  right: 70px;
+  top: 70%;
+  width: 50px;
+  position: fixed;
+  z-index: 999;
+}
+
+.fee-wrap ul li {
+  list-style-type: none;
+}
+
 .fee-blueBall {
   position: absolute;
   left: -100px;
