@@ -85,13 +85,13 @@
     background-color: #FFFFFF;
 }
 // 桌機
-@include desktop{
+@include  media-breakpoint-down(lg){
     .fee-topbar{
         margin-bottom: 300px;
     }
 }
 // 平板
-@include pad{
+@include  media-breakpoint-down(md){
     .fee-topbar{
         margin-bottom: 400px;
     }
