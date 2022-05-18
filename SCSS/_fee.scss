@@ -134,11 +134,11 @@
 }
 
 .accordion-button::after {
-    background-image: url(images/plus.svg) !important;
+    background-image: url(../images/plus.svg) !important;
     transition: 0.2s;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url(images/minus.svg) !important;
+    background-image: url(../images//minus.svg) !important;
     transform: translateY(10px)!important;
     transition: 0.2s;
 }
