@@ -15,4 +15,3 @@ function acountMoney(e){
    money[1].textContent=standard
   
 }
-
